@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: argocd-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: argocd
+  template:
+    metadata:
+      labels:
+        app: argocd
+    spec:
+      containers:
+      - name: argocd-container
+        image: 10449/simple-html:latest
+        ports:
+        - containerPort: 3000 
+      imagePullSecrets:
+      - name: dockerhub-secret
