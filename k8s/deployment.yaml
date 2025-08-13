@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: argocd-container
-        image: 10449/simple-html:b6ca9167c64960fd4d323f1cb51c1e5bdc4958c4
+        image: 10449/simple-html:aa7413f0b010a721accaf8ad12de87ad27693dc5
         ports:
         - containerPort: 3000 
       imagePullSecrets:
