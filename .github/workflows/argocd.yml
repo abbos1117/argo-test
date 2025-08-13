@@ -7,8 +7,8 @@ on:
     branches: [ main ]
  
 env:
-  IMAGE_NAME: devopsjourneyuz
-  CONTAINER_NAME: devops-journey
+  IMAGE_NAME: simple-html
+  CONTAINER_NAME: simple-html
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
   MANIFEST_REPO_URL: ${{ secrets.MANIFEST_REPO_URL }}
