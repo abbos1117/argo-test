@@ -11,7 +11,8 @@ env:
   CONTAINER_NAME: simple-html
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-  MANIFEST_REPO_URL: ${{ secrets.MANIFEST_REPO_URL }}
+  #MANIFEST_REPO_URL: ${{ secrets.MANIFEST_REPO_URL }}
+  MANIFEST_REPO_URL: abbos1117/argo-manifests
   MANIFEST_PATH: ${{ secrets.MANIFEST_PATH }}
  
 jobs:
