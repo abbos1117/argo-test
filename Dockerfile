@@ -1,3 +1,3 @@
 FROM nginx:latest
 COPY index.html /usr/share/nginx/html/index.html
-EXPOSE 80 #change
+EXPOSE 80 #changed file all
